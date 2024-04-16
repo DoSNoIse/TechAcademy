@@ -1,0 +1,24 @@
+.custom-container1 {
+
+    font-size: x-large;
+    text-align: center;
+    padding-block: 10px;
+    text-align-last: center;
+}
+
+.custom-container2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.header2 {
+    padding-top: 50px;
+    font-size: xx-large;
+    color: #5c9f74;
+}
+
+.header3 {
+    padding-top: 10px;
+    font-size: x-large;
+    color: #ffffff;
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.custom-col1 {
+    padding-right: 100px;
+    /* Adjust the spacing between columns */
+    max-block-size: 900px;
+}
+
+.custom-col-spacing {
+    margin-right: 10px;
+    /* Adjust the spacing between columns */
+}
+
+li {
+    --stop: calc(100% / var(--length) * var(--i));
+    --l2: 88%;
+    --h: calc((var(--i) - 1) * (180 / var(--length)));
+    --c1: hsl(var(--h), 71%, var(--l));
+    --c2: hsl(var(--h), 71%, var(--l2));
+
+    position: center;
+    margin: auto;
+    padding: 2rem 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 1.5rem rgba(82, 155, 116, 0.3);
+    overflow: hidden;
+    background-blend-mode: darken;
+}
+
+
+@media (min-width: 40em) {
+    li {
+        margin: 3rem auto;
+        padding: 3rem 2rem 2rem;
+    }
+}
